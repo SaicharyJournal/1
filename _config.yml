@@ -2,22 +2,19 @@ title: "Sai Chary Journal"
 author: "Sai Chary"
 email: "your-email@example.com"
 description: "A high-performance, mobile-first Jekyll template for a personal portfolio and blog."
-baseurl: "/1"  # Updated for correct deployment
+baseurl: "/1/"  # Ensure trailing slash for correct linking
 url: "https://saicharyjournal.github.io"
 
+# Repository (Ensures GitHub Pages works correctly)
+repository: "SaiCharyJournal/saicharyjournal.github.io"
+
 # Theme settings
-remote_theme: "mmistakes/minimal-mistakes"  # Corrected theme setting
+remote_theme: "mmistakes/minimal-mistakes"  # Ensure correct remote theme
 
 # SEO settings
 google_analytics: "UA-XXXXXXXXX-X"  # Replace with your real ID
 permalink: /:categories/:title/
 timezone: Asia/Kolkata
-
-# Social Links
-social_links:
-  github: "https://github.com/SaiCharyJournal"
-  linkedin: "https://linkedin.com/in/your-profile"
-  twitter: "https://twitter.com/your-profile"
 
 # Navbar sections
 header_pages:
@@ -33,6 +30,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-archives
+  - jekyll-include-cache  # Required for Minimal Mistakes
 
 # Pagination settings
 paginate: 5
@@ -41,3 +39,14 @@ paginate_path: "/blog/page:num/"
 # Styling
 minimal_mistakes_skin: "dark"  # Options: "default", "dark", "air", "aqua", etc.
 
+# Footer Links (Corrected social links)
+footer_links:
+  - label: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/SaiCharyJournal"
+  - label: "LinkedIn"
+    icon: "fab fa-linkedin"
+    url: "https://linkedin.com/in/your-profile"
+  - label: "Twitter"
+    icon: "fab fa-twitter"
+    url: "https://twitter.com/your-profile"
