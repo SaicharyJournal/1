@@ -8,6 +8,11 @@ url: "https://saicharyjournal.github.io"
 # Theme settings
 theme: "minimal-mistakes-jekyll"
 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 # SEO settings
 google_analytics: "UA-XXXXXXXXX-X"  # Replace with your Google Analytics ID
 permalink: /:categories/:title/
