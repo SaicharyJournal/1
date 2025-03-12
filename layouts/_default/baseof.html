@@ -6,9 +6,7 @@
   {{- block "head" . }} {{- end }}
 
   <!-- Custom Styles -->
-  {{ if .Site.Params.customCSS }}
-    <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/style.css">
-  {{ end }}
+  <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/custom.css">
 
   <title>
     {{- block "title" . }} {{- end }}
