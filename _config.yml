@@ -40,3 +40,4 @@ paginate_path: "/blog/page:num/"
 
 # Styling
 minimal_mistakes_skin: "dark"  # Options: "default", "dark", "air", "aqua", etc.
+
