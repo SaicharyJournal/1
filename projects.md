@@ -1,23 +1,25 @@
 ---
-layout: default
+layout: page
 title: "Projects"
 permalink: /projects/
 ---
 
-# My Projects 🚀
+# Projects  
 
-Here are some of the projects I’ve worked on:
+## **Implemented Oracle Fusion Talent Management**  
 
-## 🌟 Project 1: [Project Name](#)
-- **Description:** Brief description of the project.
-- **Technologies Used:** HTML, CSS, JavaScript, Python, etc.
-- **Live Demo:** [Visit Here](#)
-- **GitHub Repo:** [GitHub Link](#)
+**Oracle Talent Management** is a comprehensive suite designed to help organizations **attract, develop, and retain top talent**.  
 
-## 🌟 Project 2: [Another Project](#)
-- **Description:** Short summary of another project.
-- **Technologies Used:** React, Node.js, MongoDB, etc.
-- **Live Demo:** [Visit Here](#)
-- **GitHub Repo:** [GitHub Link](#)
+It integrates various **HR processes**, including:  
+🔹 **Recruiting** (AI-driven candidate matching)  
+🔹 **Performance Management** (Continuous feedback and goal setting)  
+🔹 **Learning & Development** (Personalized skill growth)  
+🔹 **Succession Planning & Career Development**  
 
-More projects coming soon! 🚀
+By implementing Oracle Talent Management, businesses can:  
+✅ **Streamline recruitment** with AI-driven candidate matching  
+✅ **Enhance employee performance** through continuous feedback  
+✅ **Upskill workforce** with personalized learning programs  
+✅ **Plan for the future** with robust career planning tools  
+
+This system ensures **data-driven decision-making, improved employee engagement, and workforce alignment** with business goals. 🚀
