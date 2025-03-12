@@ -2,21 +2,16 @@ title: "Sai Chary Journal"
 author: "Sai Chary"
 email: "your-email@example.com"
 description: "A high-performance, mobile-first Jekyll template for a personal portfolio and blog."
-baseurl: "" # Leave blank unless your site is in a subdirectory
+baseurl: "/1"  # Updated for correct deployment
 url: "https://saicharyjournal.github.io"
 
 # Theme settings
-theme: "minimal-mistakes-jekyll"
-
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+remote_theme: "mmistakes/minimal-mistakes"  # Corrected theme setting
 
 # SEO settings
-google_analytics: "UA-XXXXXXXXX-X"  # Replace with your Google Analytics ID
+google_analytics: "UA-XXXXXXXXX-X"  # Replace with your real ID
 permalink: /:categories/:title/
-timezone: Asia/Kolkata  # Set your timezone
+timezone: Asia/Kolkata
 
 # Social Links
 social_links:
@@ -31,7 +26,7 @@ header_pages:
   - blog.md
   - contact.md
 
-# Plugins
+# Plugins (fixed duplication)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
